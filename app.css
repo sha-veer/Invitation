@@ -3,8 +3,8 @@ body { margin: 0; }
 #bridge {
 	display: block;
 	margin: 0 auto;
-  background-image: url('images/invitation.jpg');
-	background-image: -webkit-image-set(url('images/invitation.jpg') 2x );
+  /* background-image: url('images/invitation.jpg');
+	background-image: -webkit-image-set(url('images/invitation.jpg') 2x ); */
 	background-size: cover;
 	width: 100%;
 	max-width: 1080px;

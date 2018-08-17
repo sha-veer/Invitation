@@ -16,7 +16,7 @@ window.onload = function() {
     } else {
         img.src = img.loc + img.filename;
     }
-
+    
     function detectLeftButton(event) {
         if ('buttons' in event) {
             return event.buttons === 1;
@@ -59,4 +59,8 @@ window.onload = function() {
             drawDot(brushPos.x, brushPos.y);
         }
     }, false);
+
+    this.setTimeout(() => {
+        document.getElementById("bridge").style="background-image: url('images/invitation.jpg')";
+    }, 100);  
 }
